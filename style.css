@@ -106,6 +106,7 @@ header h1 {
 .items {
   margin-top: 20px;
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -122,6 +123,10 @@ header h1 {
 
 .items li i {
   border: none;
+}
+
+.edit-mode {
+  color: #ccc;
 }
 
 @media (max-width: 500px) {
